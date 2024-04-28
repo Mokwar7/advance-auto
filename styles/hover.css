@@ -1,0 +1,33 @@
+.card__button:hover {
+    font-size: 16px;
+}
+
+.card__button:active {
+    background-color: #222;
+    color: #fff;
+}
+
+.header__button:hover {
+    background-color: #356875;
+    color: #fff;
+}
+
+.header__button:active {
+    background-color: #222;
+}
+
+.card__color:hover {
+    opacity: 0.7;
+}
+
+.card__color:active {
+    border: 1px solid #356875;
+}
+
+.button-more:hover {
+    opacity: 0.7;
+}
+
+.button-more:active {
+    color: #222;
+}

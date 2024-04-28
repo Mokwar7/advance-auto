@@ -1,0 +1,270 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1174px;
+    gap: 50px;
+    margin-top: 218px;
+}
+
+.header__header {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #222;
+}
+
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1030px;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__button {
+    box-sizing: border-box;
+    width: 190px;
+    height: 36px;
+    border: 1px solid #356875;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(38, 46, 43, 0.15);
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+    font-size: 20px;
+    line-height: 130%;
+    font-weight: normal;
+    letter-spacing: 0;
+    padding: 0;
+}
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 100%;
+    height: 357px;
+    display: flex;
+    border: 1px solid #000;
+    padding: 25px;
+    justify-content: space-between;
+    letter-spacing: 0%;
+    margin-bottom: 50px;
+}
+
+.card__about {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__header-cyan {
+    color: #356875;
+}
+
+.card__prev-price {
+    margin: 32px 0 20px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: normal;
+    color: rgba(34, 34, 34, 0.5);
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+
+.card__price-height {
+    line-height: 36px;
+    margin-left: 5px;
+}
+
+.card__payment {
+    line-height: 18px;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 53px;
+    margin-left: 5px;
+}
+
+.card__buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.card__button {
+    width: 240px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0;
+    padding: 0;
+    background-color: #356875;
+    color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.card__button-outlined {
+    border: 1px solid #356875;
+    background-color: #fff;
+    color: #356875;
+}
+
+.card__photo {
+    display: flex;
+    width: 640px;
+    position: relative;
+}
+
+.card__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 204px;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.card__pluses {
+    display: flex;
+    flex-direction: column;
+    width: 234px;
+    gap: 46px;
+    z-index: 2;
+    margin: 17px 0 0 17px;
+}
+
+.card__container {
+    gap: 44px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__plus {
+    display: flex;
+    gap: 18px;
+    align-items: start;
+}
+
+.card__icon {
+    width: 34px;
+    height: 34px;
+}
+
+.card__text {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.card__text-second {
+    width: 135px;
+}
+
+.card__text-third {
+    width: 149px;
+}
+
+.card__text-fourth {
+    width: 127px;
+}
+
+.card__photos {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img {
+    width: 298px;
+    margin-left: 68px;
+}
+
+.card__colors {
+    display: flex;
+    gap: 10px;
+    align-self: center;
+    margin-left: 27px;
+}
+
+.card__color {
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+    border: 0;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.card__color-cyan {
+    background-color: #356875;
+}
+
+.card__color-dark {
+    background-color: #72797C;
+}
+
+.card__color-gray {
+    background-color: #D9D9D9;
+}
+
+.card__color-black {
+    background-color: #0B0B0B;
+}
+
+.card__color-white {
+    background-color: #fff;
+    border: 1px solid #0B0B0B;
+}
+
+.card__thumbnails {
+    margin-top: 16px;
+    display: flex;
+    gap: 9px;
+}
+
+.card__thumbnail {
+    width: 90px;
+    height: 59px;
+    object-fit: cover;
+}
+
+.button-more {
+    font-size: 16px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #356875;
+    font-weight: normal;
+    line-height: 32px;
+    background-color: #ffffff00;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+    text-underline-offset: 4px;
+}
+/* Media queries */
+

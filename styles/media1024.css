@@ -1,0 +1,103 @@
+@media screen and (max-width: 1279px) {
+    .header {
+        gap: 30px;
+        width: 964px;
+        margin-top: 220px;
+    }
+
+    .header__header {
+        font-size: 36px;
+    }
+
+    .header__menu {
+        width: 100%;
+    }
+
+    .header__container {
+        gap: 18.5px;
+    }
+
+    .header__button {
+        width: 178px;
+        padding-left: 8px;
+    }
+
+    .main {
+        width: 962px;
+        margin-top: 60px;
+    }
+
+    .card {
+        padding: 12px;
+        height: 332px;
+        margin-bottom: 30px;
+    }
+
+    .card__about {
+        width: 410px;
+    }
+
+    .card__header-cyan {
+        font-size: 32px;
+        margin-top: 25px;
+    }
+
+    .card__prev-price {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .card__price-height {
+        margin-left: 0;
+    }
+
+    .card__payment {
+        margin: 20px 0 42px;
+        font-size: 20px;
+    }
+
+    .card__button {
+        width: 180px;
+        height: 50px;
+        padding: 0px;
+    }
+
+    .card__background {
+        width: 504px;
+        height: 207px;
+        object-fit: cover;
+        right: 0;
+        left: auto;
+    }
+
+    .card__pluses {
+        gap: 32px;
+        margin: 68px 0 0 38px;
+    }
+
+    .card__container {
+        gap: 32px;
+    }
+
+    .card__text {
+        font-size: 14px;
+    }
+
+    .card__img {
+        width: 280px;
+        margin: 15px 0 0 80px;
+    }
+
+    .card__colors {
+        margin: 1px 0 0 20px;
+    }
+
+    .card__thumbnails {
+        margin: 28px 0 0 80px;
+    }
+
+    .card__thumbnail {
+        width: 67px;
+        height: 45px;
+    }
+}
